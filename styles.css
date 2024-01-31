@@ -1,8 +1,11 @@
 body {
     background-color: rgb(0, 0, 0);
     color: rgb(54, 255, 47);
-    /* ПОДКЛЮЧАЕМ ШРИФТ */
-    font-size: 50px
+    font-family: Russo One;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -10,15 +13,17 @@ button {
     color: black;
     padding: 10px 20px;
     font-size: 16px;
-    /* ПОДКЛЮЧАЕМ ШРИФТ */
+    font-family: Russo One;
 }
 
 .clockCase {
-    /* ПОДКЛЮЧАЕМ ФЛЕКСЫ
-    ПО ЦЕНТРУ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonCase {
-    /* ПОДКЛЮЧАЕМ ФЛЕКСЫ
-    ПО ЦЕНТРУ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
